@@ -8,7 +8,6 @@ object Day3 extends App {
   val lines = source.getLines.toList
   source.close
 
-
   println(part1(lines))
   println(part2(lines))
 
